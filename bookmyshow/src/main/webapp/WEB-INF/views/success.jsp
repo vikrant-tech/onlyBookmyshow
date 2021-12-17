@@ -11,9 +11,9 @@
 <body>
 
   <h1>User Details!!!</h1>
-  <h2>your email is ${email }</h2>
-  <h2>your name is ${username }</h2>
-  <h2>your password is ${password }</h2>
+  <h2>your email is ${user.email}</h2>
+  <h2>your name is ${user.username }</h2>
+  <h2>your password is ${user.password }</h2>
   
 
 </body>

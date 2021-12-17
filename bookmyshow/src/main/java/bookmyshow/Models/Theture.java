@@ -1,4 +1,4 @@
-package bookmyshow.Entities;
+package bookmyshow.Models;
 
 public class Theture {
 
