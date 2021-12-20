@@ -1,32 +1,32 @@
 package bookmyshow.Models;
 
 public class Movie {
+	
+	@Override
+	public String toString() {
+		return "Movie [movieName=" + movieName + ", movieLanguage=" + movieLanguage + ", MovieType=" + MovieType + "]";
+	}
 	private int id;
-	private String name;
-	private String language;
-	public int getId() {
-		return id;
+	private String movieName;
+	private String movieLanguage;
+	private String MovieType;
+	public String getMovieName() {
+		return movieName;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setMovieName(String movieName) {
+		this.movieName = movieName;
 	}
-	public String getName() {
-		return name;
+	public String getMovieLanguage() {
+		return movieLanguage;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setMovieLanguage(String movieLanguage) {
+		this.movieLanguage = movieLanguage;
 	}
-	public String getLanguage() {
-		return language;
+	public String getMovieType() {
+		return MovieType;
 	}
-	public void setLanguage(String language) {
-		this.language = language;
-	}
-	public Movie(int id, String name, String language) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.language = language;
+	public void setMovieType(String movieType) {
+		MovieType = movieType;
 	}
 	
 
