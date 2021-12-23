@@ -52,6 +52,15 @@
  				<value>
  					bookmyshow.Models.User
  				</value>
+ 				
+ 				<value>
+ 				    bookmyshow.Models.Movie
+ 				
+ 				</value>
+ 				
+ 				
+ 				
+ 				
  			</list>
  		</property>
  	</bean>
